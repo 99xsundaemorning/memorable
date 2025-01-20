@@ -37,14 +37,14 @@ client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
   // Set initial activity
-  client.user.setActivity('Listening your gossips!', { type: ActivityType.Listening });
+  client.user.setActivity('your gossips!', { type: ActivityType.Listening });
   
   // Change activity every 5 minutes (300000 ms)
   setInterval(() => {
     const activities = [
-      { name: 'Watching DOWNTOWN INDIΛ!', type: ActivityType.Watching },
-      { name: 'Streaming in Voice Channel!', type: ActivityType.Streaming },
-      { name: 'Listening to Music!', type: ActivityType.Listening }
+      { name: 'DOWNTOWN INDIΛ!', type: ActivityType.Watching },
+      { name: 'in Voice Channel!', type: ActivityType.Streaming },
+      { name: 'Music!', type: ActivityType.Listening }
     ];
     
       // Select a random activity from the array
