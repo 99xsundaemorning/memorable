@@ -37,7 +37,7 @@ client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
   // Set initial activity
-  client.user.setActivity('Listening to your commands!', { type: ActivityType.Listening });
+  client.user.setActivity('Listening your gossips!', { type: ActivityType.Listening });
   
   // Change activity every 5 minutes (300000 ms)
   setInterval(() => {
